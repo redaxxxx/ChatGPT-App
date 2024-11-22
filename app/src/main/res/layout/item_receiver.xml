@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginVertical="4dp"
+        android:background="@drawable/receiver_bg">
+
+        <TextView
+            android:id="@+id/message_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="10dp"
+            android:textAlignment="textStart"
+            android:textStyle="bold"
+            tools:text="Message Receiver"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/receiveDate_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginBottom="10dp"
+            android:textAlignment="textStart"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            tools:text="Date"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+</layout>

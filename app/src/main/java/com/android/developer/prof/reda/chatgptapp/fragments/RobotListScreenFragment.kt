@@ -32,5 +32,4 @@ class RobotListScreenFragment : Fragment() {
 
         return binding.root
     }
-
 }
